@@ -1,0 +1,32 @@
+What i sPytest :
+Great features :
+-auto-discovery of tests:
+    - pyTest has the ability to pick up tests based on the way we name them
+    -no explicit registration needed 
+
+-Rich assertion introspection :
+when the test fails there is a really nice breakdown as to why that test failed , reports
+
+
+-Support parameterized and fixture-based testing:
+we can run test function multiple times with diff functions
+
+
+WHy Pytest:
+-Simplified Syntax
+-Rich assertion introspection
+-Powerful Fixture System(operation to run before test run)
+-Compatibility
+-Extensibility(rich plugin architecture , ex Django )
+
+Assert in pythonis debugginh Aid that tests a condition as an aid to debugging
+
+
+-cool things :
+setup method is code that run before the test code will be executed 
+run at the beggingn of each test
+
+
+
+-- in class based test , we can use setup method to initialize test 
+--- but in function test , we can use a fixture 
