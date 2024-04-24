@@ -30,3 +30,11 @@ run at the beggingn of each test
 
 -- in class based test , we can use setup method to initialize test 
 --- but in function test , we can use a fixture 
+
+
+
+Marks and parametize
+Marks to give pytest that things is a mark ,
+
+parametrize to allow testing multiple pattern ! 
+example : when we want to set a bulb in multiple battery , we are not testing one by one but we can use parametrize
