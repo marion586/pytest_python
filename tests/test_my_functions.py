@@ -33,6 +33,5 @@ def test_add():
     assert my_functions.add(1 , 2) == 3
 
 @pytest.mark.xfail(reason='We know we cannot divide by zero')
-
 def  test_ddivide_zero_broken():
     my_functions.divvide(4 , 0)
